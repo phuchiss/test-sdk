@@ -1,0 +1,36 @@
+{
+  "generator-alfresco": {
+    "originalGeneratorVersion": "0.9.22",
+    "generatorVersion": "0.9.22",
+    "sdkVersion": "3.0.1",
+    "archetypeVersion": "3.0.1",
+    "projectStructure": "advanced",
+    "projectGroupId": "org.alfresco",
+    "projectArtifactId": "test-sdk",
+    "projectVersion": "1.0.0-SNAPSHOT",
+    "projectPackage": "org.alfresco",
+    "communityOrEnterprise": "Community",
+    "removeDefaultSourceAmps": false,
+    "removeDefaultSourceSamples": false,
+    "moduleRegistry": [
+      {
+        "groupId": "${project.groupId}",
+        "artifactId": "test-sdk-platform-jar",
+        "version": "${project.version}",
+        "packaging": "jar",
+        "war": "repo",
+        "location": "source",
+        "path": "test-sdk-platform-jar"
+      },
+      {
+        "groupId": "${project.groupId}",
+        "artifactId": "test-sdk-share-jar",
+        "version": "${project.version}",
+        "packaging": "jar",
+        "war": "share",
+        "location": "source",
+        "path": "test-sdk-share-jar"
+      }
+    ]
+  }
+}
