@@ -1,4 +1,5 @@
 # Alfresco AIO Project - SDK 3
+[<img src="https://phuchiss.visualstudio.com/_apis/public/build/definitions/Test-Maven-CI/2/badge"/>](https://phuhciss.visualstudio.com/Test/_build/index?definitionId=2)
 
 This is an All-In-One (AIO) project for Alfresco SDK 3.0. 
 
